@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agencia de viajes el "Burrito Sabanero"</h1>
+
+    <h2>Tu Camino a Destinos Inolvidables</h2>
+
+    <h3>Nuestro proposito</h3>
+    <h4>Somos una agencia de viajes que trata de dejar, <br>
+         tanto un buen servicio a nuestros clientes, como <br>
+         una linda y grata experiencia dejando un memento <br>
+         inolvidable ya sea que viajes con familia, amigos, pareja, <br>
+         trabajo y/o solo/a.</h4>
+
+        <h2>Lugares exclusivos</h2>
+
+        <h2>Isla Necker</h2>
+        <h3>Isla privada con villas de lujo y acceso solo para pocos invitados.</h3>
+        <img src="img/necker island.jpg" alt="necker island">
+
+        <h2>Islas Maldivas</h2>
+        <h3>Resorts sobre el agua, playas privadas, y servicio ultra exclusivo.</h3>
+        <img src="img/maldivas.jpg" alt="maldivas" style="width: 250px; height: 250px;">
+
+        <h2>Bora Bora</h2>
+        <h3>Bungalows privados, aguas turquesas y máxima privacidad</h3>
+        <img src="img/borabora.jpg" alt="bora bora" style="height: 250px; width: 250;">
+
+        <h2>Para Reservar ponga aquí los datos del viaje: </h2>
+
+        <form action="/action_page.php">
+    <label for="username">Usuario:</label>
+  <input type="text" id="username" name="username" required>
+  <input type="submit" value="Submit"> <br> <br>
+
+   <label for="correo">Introduzca su correo electronico:</label>
+        <input type="placeholder" type="correo" id="correo" name="correo"
+  placeholder="someone@gmail.com"
+  required> <br><br>
+
+  <label for="acompañantes">Número de Acompañantes:</label>
+  <input type="number" id="acompanantes"
+  name="acompanantes" min="1" max="5" step="1"> <br> <br>
+
+   <label for="hotels"> Escoja un destino</label>
+        <select name="hotels" id="hotels">
+            <option value="volvo">Isla Necker</option>
+            <option value="volvo">Islas Maldivas</option>
+            <option value="volvo">Bora Bora</option>
+        </select> <br><br>
+
+  <label for="origen">Lugar de origen:</label>
+<input
+ type="text" id="origen" name="origen" value="San Salvador" readonly> <br><br>
+
+   <h2>Datos personales</h2>
+
+   <label for="fname">Nombre</label>
+        <input type="text" name="fname" id="Fname"><br><br>
+
+        <label for="apellido">Apellido</label>
+        <input type="lname" id="lname" name="last name"> <br><br>
+
+
+  <label for="edad">Introduzca su edad:</label>
+        <input type="number" id="edad" name="edad"> <br><br>
+
+        <label for="fecha de nacimiento">Introduzca su fecha de nacimiento</label>
+        <input type="date" name="feha de nacimiento" id="date"><br><br>
+
+        <label for="genero">Genero</label>
+        <input type="checkbox" id="genero" name="genero">
+
+        <h4>Femenino</h4>
+         <input type="radio" id="si" name="genero">
+        <label for="si">si</label> <br>
+
+         <h4>Masculino</h4>
+         <input type="radio" id="si" name="genero">
+        <label for="si"></label> <br>
+
+        <h4>Otro...</h4>
+         <input type="radio" id="si" name="genero">
+        <label for="si"></label> <br>
+
+</form>
+
+
+</body>
+</html>
